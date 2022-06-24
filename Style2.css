@@ -1,0 +1,67 @@
+﻿body {
+    background-color: #A6979C;
+    font-family: Helvetica, Arial,sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+#container {
+    background-color: white;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    background-color: #66CCFF;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#main {
+    width: 600px;
+    float: right;
+    padding: 10px;
+}
+
+#footer {
+    clear: both;
+    padding: 10px;
+    background-color: #999999;
+    color: white;
+    text-align: right;
+}
+
+#nav {
+    width: 180px;
+    float: left;
+}
+
+h3{
+    text-align:center;
+    font-size:20px;
+}
+
+#main {
+    width: 600px;
+    float: left;
+}
+
+#img{
+    text-align:left;
+    width: 600px;
+}
+
+#skill {
+    width: 600px;
+    float: left;
+}
+
+h4{
+    text-align:center;
+    font-size:20px;
+}
