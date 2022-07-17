@@ -10,7 +10,7 @@ a {
 
 #container {
     background-color: white;
-    width: 800px;
+    width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -18,8 +18,11 @@ a {
 #header {
     background-color: #66CCFF;
     color: white;
-    text-align: center;
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
 }
 
 #main {
@@ -36,9 +39,8 @@ a {
     text-align: right;
 }
 
-#nav {
-    width: 180px;
-    float: left;
+h1{
+    margin-left:auto;
 }
 
 h3{
@@ -64,4 +66,22 @@ h3{
 h4{
     text-align:center;
     font-size:20px;
+}
+
+.nav_link {
+    list-style: none;
+}
+
+.nav_link li{
+    display:inline-block;
+    padding:0px 20px;
+}
+
+.nav_link li a{
+    transition: all 0.3s ease 0s;
+
+}
+
+.nav_link li a :hover{
+    color:#0088a9;
 }
