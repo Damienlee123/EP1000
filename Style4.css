@@ -31,8 +31,25 @@ h1{
     padding:10px;
 }
 
-h5 h4 h3 h6 {
+h3 {
     font-size:20px;
+    text-align:center;
+}
+h4 {
+    font-size: 20px;
+    text-align: center;
+}
+h5 {
+    font-size: 20px;
+    text-align: center;
+}
+h6 {
+    font-size: 20px;
+    text-align: center;
+}
+h7 {
+    font-size: 20px;
+    text-align: center;
 }
 
 #footer {
