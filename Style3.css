@@ -32,6 +32,10 @@ a {
     color: white;
     text-align: right;
 }
+h1{
+    font-size:40 px;
+    text-align:center;
+}
 
 
 #content {
