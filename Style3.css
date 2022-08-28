@@ -10,6 +10,11 @@
     margin-right: auto;
 }
 
+a {
+    text-decoration: none;
+    color: red;
+}
+
 #header {
     background-color: #66CCFF;
     color: white;
@@ -20,9 +25,53 @@
     padding: 30px 10%;
 }
 
-a {
-    text-decoration: none;
-    color: red;
+h1 {
+    margin-left: auto;
+}
+
+#content {
+    padding: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+    text-align: center;
+}
+
+h5 {
+    font-size: 20px;
+    text-align: center;
+}
+
+h6 {
+    font-size: 20px;
+    text-align: center;
+}
+
+h7 {
+    font-size: 20px;
+    text-align: center;
+}
+
+h8 {
+    font-size: 20px;
+    text-align: center;
+}
+
+h9 {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+h10 {
+    font-size: 20px;
+    text-align: center;
 }
 
 #footer {
@@ -32,28 +81,20 @@ a {
     color: white;
     text-align: right;
 }
-h1{
-    font-size:40 px;
-    text-align:center;
+
+.nav_link {
+    list-style: none;
 }
 
+    .nav_link li {
+        display: inline-block;
+        padding: 0px 20px;
+    }
 
-#content {
-    padding: 10px;
-}
+        .nav_link li a {
+            transition: all 0.3s ease 0s;
+        }
 
-.nav_link{
-    list-style:none;
-}
-.nav_link li{
-    display: inline-block;
-    padding: 0px 20px;
-}
-
-.nav_link li a {
-    transition: all 0.3s ease 0s;
-}
-
-.nav_link li a:hover {
-    color: #0088a9;
-}
+            .nav_link li a:hover {
+                color: #0088a9;
+            }
